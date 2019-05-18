@@ -18,3 +18,8 @@ Run the sketch, Open the Serial Monitor and look at the address of the device.
 To connect multiple devices, use a breadboard and connect Arduino's A4 and A5.
 
 Connect the Devices SDA and SCL pins to the breadboard, run the program, see the results.
+
+The default I2C address of the DS3231 RTC is 0x68
+
+	#define DS3231_I2C_ADDRESS 0x68
+
